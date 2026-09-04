@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="藍玄-AIGEN｜AIと日本の四季を描くデジタルアート・ポートフォリオ" />
+  <title>藍玄-AIGEN — AI Art Portfolio</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <header class="mobile-head"><a class="brand" href="#top">藍玄<span>AIGEN</span><img class="rakkan" src="./art/rakkan.png" alt=""></a><button data-open-menu>MENU</button></header>
+  <aside class="sidebar">
+    <a class="brand" href="#top">藍玄<span>AIGEN</span><img class="rakkan" src="./art/rakkan.png" alt=""></a>
+    <div class="side-middle">
+      <p class="nav-label">Works</p>
+      <nav aria-label="作品フィルター">
+        <button class="active" data-filter="all">全作品</button>
+        <button data-filter="asymmetry">四季 - Whispers of the Seasons</button>
+        <button data-filter="flourish">四季 - Seasons in Bloom</button>
+      </nav>
+    </div>
+    <div class="lower"><a href="https://gicleepod.com/store/artist-6814d428" target="_blank" rel="noreferrer">Online Store ↗</a><a href="mailto:studio@example.com">Contact</a><span>JAPAN · 2026</span></div>
+  </aside>
+  <main id="top">
+    <section id="works" class="gallery" aria-live="polite">
+      <article class="work" data-series="asymmetry" data-title="春宵の桜" data-en="Shunshō no Sakura" data-img="./art/spring-asymmetry.png"><button class="image-wrap"><img src="./art/spring-asymmetry.png" alt="春宵の桜" loading="eager"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>春宵の桜</h2><p>SHUNSHŌ NO SAKURA</p></div><small>01 / 08</small></div></article>
+      <article class="work compact right" data-series="flourish" data-title="春霞のさえずり" data-en="Song of Spring Haze" data-img="./art/spring.png"><button class="image-wrap"><img src="./art/spring.png" alt="春霞のさえずり" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>春霞のさえずり</h2><p>SONG OF SPRING HAZE</p></div><small>02 / 08</small></div></article>
+      <article class="work compact" data-series="asymmetry" data-title="瑠璃の涼風" data-en="Ruri no Suzukaze" data-img="./art/summer-asymmetry.png"><button class="image-wrap"><img src="./art/summer-asymmetry.png" alt="瑠璃の涼風" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>瑠璃の涼風</h2><p>RURI NO SUZUKAZE</p></div><small>03 / 08</small></div></article>
+      <article class="work" data-series="flourish" data-title="青藍の風音" data-en="Sound of the Indigo Breeze" data-img="./art/summer.png"><button class="image-wrap"><img src="./art/summer.png" alt="青藍の風音" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>青藍の風音</h2><p>SOUND OF THE INDIGO BREEZE</p></div><small>04 / 08</small></div></article>
+      <article class="work compact right" data-series="asymmetry" data-title="朱金の宴" data-en="Shugane no Utage" data-img="./art/autumn-asymmetry.png"><button class="image-wrap"><img src="./art/autumn-asymmetry.png" alt="朱金の宴" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>朱金の宴</h2><p>SHUGANE NO UTAGE</p></div><small>05 / 08</small></div></article>
+      <article class="work" data-series="flourish" data-title="紅葉の詩" data-en="Poem of Maple Leaves" data-img="./art/autumn.png"><button class="image-wrap"><img src="./art/autumn.png" alt="紅葉の詩" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>紅葉の詩</h2><p>POEM OF MAPLE LEAVES</p></div><small>06 / 08</small></div></article>
+      <article class="work compact" data-series="asymmetry" data-title="白雪の祈り" data-en="Shirayuki no Inori" data-img="./art/winter-asymmetry.png"><button class="image-wrap"><img src="./art/winter-asymmetry.png" alt="白雪の祈り" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>白雪の祈り</h2><p>SHIRAYUKI NO INORI</p></div><small>07 / 08</small></div></article>
+      <article class="work compact right" data-series="flourish" data-title="雪華の静寂" data-en="Silence of Snow Blossoms" data-img="./art/winter.png"><button class="image-wrap"><img src="./art/winter.png" alt="雪華の静寂" loading="lazy"><span>VIEW WORK ↗</span></button><div class="meta"><div><h2>雪華の静寂</h2><p>SILENCE OF SNOW BLOSSOMS</p></div><small>08 / 08</small></div></article>
+      <div class="pager" aria-label="作品ナビゲーション"><button data-prev>← PREVIOUS</button><span data-counter>01 / 08</span><button data-next>NEXT →</button></div>
+    </section>
+    <footer><span>© 2026 藍玄-AIGEN</span><span>AI ART / JAPAN</span><a href="#top">BACK TO TOP ↑</a></footer>
+  </main>
+  <div class="modal" hidden role="dialog" aria-modal="true" aria-label="作品詳細"><button class="close" data-close-modal>CLOSE ×</button><img alt=""><div class="modal-copy"><p></p><h2></h2><span>AI-ASSISTED DIGITAL ART</span></div></div>
+  <div class="menu" hidden><button class="close" data-close-menu>CLOSE ×</button><p class="eyebrow">EXPLORE</p><button data-filter="all">全作品</button><button data-filter="asymmetry">四季 - Whispers of the Seasons</button><button data-filter="flourish">四季 - Seasons in Bloom</button></div>
+  <script src="./src/app.js"></script>
+</body>
+</html>
