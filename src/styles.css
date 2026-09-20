@@ -310,6 +310,8 @@ footer a { text-decoration: none; }
   .mobile-head .brand { font-size: 18px; }
   .mobile-head .brand span { font-size: 12px; }
   .mobile-head .brand .rakkan { width: 21px; height: 21px; margin-left: 6px; }
+  .mobile-actions { display: flex; flex: 0 0 auto; align-items: center; gap: 18px; white-space: nowrap; }
+  .mobile-actions a { display: inline-block; font-size: 11px; text-decoration: none; letter-spacing: .04em; }
   .mobile-head button { padding: 0; border: 0; background: none; font-size: 11px; }
   main { width: 100%; height: 100svh; margin: 0; overflow: hidden; }
   .hero, .gallery { width: calc(100% - 36px); }
